@@ -1,6 +1,6 @@
 {
-    "name": "ruby",
-    "displayName": "Ruby",
+    "name": "crystal",
+    "displayName": "Crystal",
     "description": "Provides Crystal language support for Visual Studio Code",
     "version": "0.0.1",
     "publisher": "g3ortega",
