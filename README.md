@@ -2,6 +2,9 @@
 
 Adding Crystal support for Visual Studio Code
 
+## Install extention
+Press `F1`, type `ext install crystal`.
+
 ## Plans
 
 - Add snippets
