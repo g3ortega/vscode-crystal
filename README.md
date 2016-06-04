@@ -10,6 +10,6 @@ Adding Crystal support for Visual Studio Code
 
 ### 0.0.1
 
-Basic support based on vscode-ruby
+- Basic support based on vscode-ruby
 
 **Enjoy!**
