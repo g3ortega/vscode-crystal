@@ -10,6 +10,10 @@ Press `F1`, type `ext install crystal`.
 - Add snippets
 - Linter support
 
+### 0.1.6
+
+- Starting with snippets
+
 ### 0.1.2
 
 - Improvements in crystal support
