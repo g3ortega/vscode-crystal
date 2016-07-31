@@ -17,7 +17,8 @@
         "url": "https://github.com/g3ortega/vscode-crystal/issues"
     },
     "categories": [
-        "Languages"
+        "Languages",
+        "Snippets"
     ],
     "contributes": {
         "languages": [
@@ -40,6 +41,12 @@
                 "scopeName": "source.crystal",
                 "path": "./syntaxes/crystal.tmLanguage"
             }
-        ]
+        ],
+        "snippets": [
+			{
+				"language": "crystal",
+				"path": "./snippets/crystal.json"
+			}
+		]
     }
 }
