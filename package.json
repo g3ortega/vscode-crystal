@@ -2,7 +2,7 @@
     "name": "crystal",
     "displayName": "Crystal",
     "description": "Provides Crystal language support for Visual Studio Code",
-    "version": "0.1.6",
+    "version": "0.1.8",
     "publisher": "g3ortega",
     "engines": {
         "vscode": "^1.0.0"
@@ -43,10 +43,10 @@
             }
         ],
         "snippets": [
-			{
-				"language": "crystal",
-				"path": "./snippets/crystal.json"
-			}
-		]
+            {
+                "language": "crystal",
+                "path": "./snippets/crystal.json"
+            }
+        ]
     }
 }
