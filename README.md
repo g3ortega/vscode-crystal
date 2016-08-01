@@ -3,7 +3,7 @@
 This extension provides support for Crystal for Visual Studio Code. It's still a work in progress, feel free to contribute or report issues through GitHub.
 
 <p align="center">
-  ![](images/crystal.png?raw=true)
+    <img src="images/crystal.png?raw=true" />
 </p>
 
 ## Install extention
