@@ -1,8 +1,10 @@
 # Crystal support for VSCode
 
-![](images/crystal.png?raw=true)
-
 This extension provides support for Crystal for Visual Studio Code. It's still a work in progress, feel free to contribute or report issues through GitHub.
+
+<p align="center">
+  ![](images/crystal.png?raw=true)
+</p>
 
 ## Install extention
 Press `F1`, type `ext install crystal`.
