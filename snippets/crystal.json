@@ -1,4 +1,58 @@
 {
+	"Mustafa Controller": {
+		"prefix": "controller init",
+		"body": [
+				"class ${1:Controllername} < Core::Controller",
+				"\tinit $1",
+				"\taction \"index\" do",
+				"\t\t",
+				"\tend",
+				"end"
+			],
+		"description": "Mustafa Controller"
+	},	
+
+	"Mustafa View": {
+		"prefix": "view init",
+		"body": [
+				"class ${1:Viewname} < Core::View",
+				"\tinit \"$1\", ${2:param} ",
+				"\tdef load",
+				"\t\t",
+				"\tend",
+				"end"
+			],
+		"description": "Mustafa View"
+	},	
+
+	"Mustafa Model": {
+		"prefix": "model init",
+		"body": [
+				"class ${1:Modelname} < Core::Model",
+				"\tdef ${2:methodname}",
+				"\t\t",
+				"\tend",
+				"end"
+			],
+		"description": "Mustafa Model"
+	},
+
+	"Mustafa Control": {
+		"prefix": "control init",
+		"body": [
+				"class ${1:Controlname} < Core::Model",
+				"\tinit_property ${2:propertyname}",
+				"\t",
+				"\tinit \" ${3:attributename}: \\\"${4:value}\\\" \"",
+				"\t",
+				"\tdef show",
+				"\t\t\"${5:htmlvalue}\"",
+				"\tend",
+				"end"
+			],
+		"description": "Mustafa Control"
+	},
+	
 	"Exception block": {
 		"prefix": "begin",
 		"body": [
