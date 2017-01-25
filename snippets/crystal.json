@@ -1,4 +1,36 @@
 {
+	"Control property init": {
+		"prefix": "control_prop",
+		"body": [
+				"control_property(\"${1:propertyname}\")"
+			],
+		"description": "Mustafa control property"
+	},
+
+	"Load view": {
+		"prefix": "load view",
+		"body": [
+				"load_view ${1:viewname}, ${2:param}"
+			],
+		"description": "Mustafa load view"
+	},
+
+	"Load model": {
+		"prefix": "load model",
+		"body": [
+				"load_model \"${1:modelname}\""
+			],
+		"description": "Mustafa load model"
+	},
+
+	"Control init property": {
+		"prefix": "init_property",
+		"body": [
+				"init_property ${1:propertyname}"
+			],
+		"description": "Mustafa Control init property"
+	},
+	
 	"Mustafa Controller": {
 		"prefix": "controller init",
 		"body": [
