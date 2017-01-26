@@ -32,7 +32,7 @@
 	},
 	
 	"Mustafa Controller": {
-		"prefix": "controller init",
+		"prefix": "init controller",
 		"body": [
 				"class ${1:Controllername} < Core::Controller",
 				"\tinit $1",
@@ -45,7 +45,7 @@
 	},	
 
 	"Mustafa View": {
-		"prefix": "view init",
+		"prefix": "init view",
 		"body": [
 				"class ${1:Viewname} < Core::View",
 				"\tinit \"$1\", ${2:param} ",
@@ -58,7 +58,7 @@
 	},	
 
 	"Mustafa Model": {
-		"prefix": "model init",
+		"prefix": "init model",
 		"body": [
 				"class ${1:Modelname} < Core::Model",
 				"\tdef ${2:methodname}",
@@ -70,7 +70,7 @@
 	},
 
 	"Mustafa Control": {
-		"prefix": "control init",
+		"prefix": "init control",
 		"body": [
 				"class ${1:Controlname} < Core::Model",
 				"\tinit_property ${2:propertyname}",
@@ -83,6 +83,40 @@
 				"end"
 			],
 		"description": "Mustafa Control"
+	},
+	
+	"HTTP simple server": {
+		"prefix": "init simple http",
+		"body": [
+				"server = HTTP::Server.new(${1:\"0.0.0.0\"}, ${2:8080}) do |context|",
+  				"\tcontext.response.content_type = \"text/plain\"",
+  				"\tcontext.response.print \"Hello world!\"",
+				"end"
+			],
+		"description": "Crystal HTTP server initialize"
+	},
+
+	"HTTP server": {
+		"prefix": "init http",
+		"body": [
+				"server = HTTP::Server.new(${1:\"0.0.0.0\"}, ${2:8080}) do |context|",
+  				"\t$3",
+				"end"
+			],
+		"description": "Crystal HTTP server initialize"
+	},
+
+	"HTTP server with handlers": {
+		"prefix": "init http with handlers",
+		"body": [
+				"HTTP::Server.new(${1:\"127.0.0.1\"}, ${2:8080}, [",
+  				"\tHTTP::ErrorHandler.new,",
+  				"\tHTTP::LogHandler.new,",
+  				"\tHTTP::DeflateHandler.new,",
+  				"\tHTTP::StaticFileHandler.new(\".\"),",
+				"]).listen"
+			],
+		"description": "Crystal HTTP server initialize"
 	},
 	
 	"Exception block": {
