@@ -14,6 +14,10 @@ Press `F1`, type `ext install crystal`.
 - Add snippets
 - Linter support
 
+### 0.1.9
+
+- Adding snippets for HTTP and Mustafa MVC Framework by [guvencenanguvenal](https://github.com/guvencenanguvenal) Güven Cenan Güvenal
+
 ### 0.1.7
 
 - Starting with snippets
