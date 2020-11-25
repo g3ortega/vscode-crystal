@@ -1,3 +1,5 @@
+# DEPRECATED: Please check [crystal-lang-tools/vscode-crystal-lang](https://github.com/crystal-lang-tools/vscode-crystal-lang)
+
 # Crystal support for VSCode
 
 This extension provides support for Crystal for Visual Studio Code. It's still a work in progress, feel free to contribute or report issues through GitHub.
